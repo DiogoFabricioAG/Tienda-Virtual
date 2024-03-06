@@ -1,3 +1,4 @@
+const ids = []
 document.addEventListener("DOMContentLoaded", function() {
     var elemento = document.getElementById("animacion");
     elemento.classList.remove("opacity-0", "-translate-y-full");
